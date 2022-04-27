@@ -19,7 +19,7 @@ TEST(PracticeTest, smoke_test)
     ASSERT_TRUE(true);
 }
 
-//REPEATS
+//////////////////////////count_starting_repeats//////////////////////////////
 TEST(PracticeTest, zzz_repeats)
 {
 	Practice obj;
@@ -50,7 +50,7 @@ TEST(PracticeTest, repeat_uses_first_char)
 	ASSERT_EQ(obj.count_starting_repeats("azzz"), 1);
 }
 
-//PALINDROME
+//////////////////////////isPalindrome//////////////////////////////
 TEST(PracticeTest, pal_abba)
 {
 	Practice obj;
@@ -101,7 +101,7 @@ TEST(PracticeTest, pal_handles_non_a_to_z)
 	ASSERT_FALSE(obj.isPalindrome("[aba;"));
 }
 
-//SORT_DESCENDING
+//////////////////////////sortDescending//////////////////////////////
 TEST(PracticeTest, sort_123)
 {
 	Practice obj;
